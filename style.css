@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /*background-image: url('bukiphan.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: blur(2px);
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-box {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #dbeafe; /* xanh da trời */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.section-title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.choice {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background: #fff7ed;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  background-color: #fde68a;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.choice.correct {
+  background-color: #bbf7d0;
+  border-color: #10b981;
+  color: #065f46;
+}
+
+.choice.wrong {
+  background-color: #fecaca;
+  border-color: #ef4444;
+  color: #7f1d1d;
+}
+
+.timer {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.blink {
+  animation: blinkEffect 0.3s ease-in-out 3;
+}
+
+.color-red {
+  color: #dc3545;
+}
+
+@keyframes blinkEffect {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
